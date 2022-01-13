@@ -1,4 +1,4 @@
-package monHoc;
+package com.hungnt2004110032.buoi01.structured;
 import java.util.Scanner;
 
 public class Bank_Structured {
@@ -7,19 +7,13 @@ public class Bank_Structured {
     static int account_banlance = 0;
     static Scanner input;
 
-    static String emName;  // ten nhan vien
-    static double salaray; // luong
-
-    static String cusName;  // ten khach hang
-    static String address;  // dia chi
-
     public static void main(String[] args) {
 
         input = new Scanner(System.in);
         show();
         desposit();
         withdraw();
-
+        
     }
     
     // in thong tin tai khoan
@@ -47,16 +41,6 @@ public class Bank_Structured {
         account_banlance -= withdrawAmount;
         System.out.println("So tien rut duoc la: " + withdrawAmount);
     }
-
-    static void getEmName(){
-        emName = "Nguyễn Văn A";
-    }
     
-    static void getSalary(){
-        salaray = 5000000;
-    }
 
-    static void getAddress(){
-        address = "448/8 Quang Trung";
-    }
 }

@@ -1,4 +1,4 @@
-package monHoc.non_structured;
+package com.hungnt2004110032.buoi01.non_structured;
 
 import java.util.Scanner;
 

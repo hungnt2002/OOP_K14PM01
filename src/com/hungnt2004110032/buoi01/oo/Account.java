@@ -1,30 +1,27 @@
-package monHoc.structured;
+package com.hungnt2004110032.buoi01.oo;
 import java.util.Scanner;
 
-public class Bank_Structured {
-    // bien toan cuc
-    static int account_number = 12345;
-    static int account_banlance = 0;
-    static Scanner input;
+public class Account {
 
-    public static void main(String[] args) {
+    int account_number = 12345;
+    int account_banlance = 0;
+    Scanner input = new Scanner(System.in);
 
-        input = new Scanner(System.in);
-        show();
-        desposit();
-        withdraw();
-        
+    Account(int number, int balance){
+        account_number = number;
+        account_banlance = balance;
     }
-    
-    // in thong tin tai khoan
-    static void show(){
 
+    void show(){
+
+        System.out.println("------------------------------");
         System.out.println("Thong tin tai khoan");
         System.out.println("Account Number: " + account_number);
         System.out.println("Account Balance: " + account_banlance);
+        System.out.println("------------------------------");
     }
 
-    static void desposit(){
+    void desposit(){
 
         System.out.print("Nhap vao so tien gui: ");
         int despositAmount = 0;
@@ -33,14 +30,11 @@ public class Bank_Structured {
         System.out.println("So tien da gui la: " + account_banlance);
     }
 
-    // rut tien
-    static void withdraw(){
+    void withdraw(){
         System.out.print("Nhap vao so tien can rut: ");
         int withdrawAmount = 0;
         withdrawAmount = input.nextInt();
         account_banlance -= withdrawAmount;
         System.out.println("So tien rut duoc la: " + withdrawAmount);
     }
-    
-
 }

@@ -1,4 +1,4 @@
-package monHoc.oo;
+package com.hungnt2004110032.buoi01.oo;
 
 public class BankTestDrive {
     public static void main(String[] args) {
@@ -9,9 +9,11 @@ public class BankTestDrive {
         account.show();
 
         Employee employee = new Employee("Nguyen van A");
+        employee = new Employee("Nguyen van B");
         employee.show();
 
-        Customer customer = new Customer("Nguyen Van B");
+        Customer customer = new Customer("Nguyen Van C");
+        customer = new Customer("Nguyen Van D");
         customer.show();
     }
 }
