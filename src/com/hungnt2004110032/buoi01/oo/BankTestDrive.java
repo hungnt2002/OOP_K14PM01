@@ -9,11 +9,9 @@ public class BankTestDrive {
         account.show();
 
         Employee employee = new Employee("Nguyen van A");
-        employee = new Employee("Nguyen van B");
         employee.show();
 
-        Customer customer = new Customer("Nguyen Van C");
-        customer = new Customer("Nguyen Van D");
+        Customer customer = new Customer("Nguyen Van B");
         customer.show();
     }
 }
