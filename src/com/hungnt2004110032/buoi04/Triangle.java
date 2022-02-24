@@ -1,14 +1,14 @@
 package com.hungnt2004110032.buoi04;
 
 public class Triangle {
-    String soundFile;
+    private String soundFile;
 
     Triangle(String soundFile){
         this.soundFile = soundFile;
     }
 
     void rotate(){
-        System.out.println("Xoay hinh 360 đo");
+        System.out.println("Xoay hinh tam giac 360 đo");
     }
 
     void playSound(){
