@@ -5,7 +5,7 @@ public class ShapeTestDrive {
         Circle circle = new Circle("hinhtron.aif");
         circle.rotate();
         circle.playSound();
-
+        
         Square square = new Square("hinhvuong.aif");
         square.rotate();
         square.playSound();
@@ -14,7 +14,7 @@ public class ShapeTestDrive {
         triangle.rotate();
         triangle.playSound();
 
-        Amoeba amoeba = new Amoeba("amoebaMusic.hif");
+        Amoeba amoeba = new Amoeba("amoebaMusic.hif", 8, 2);
         amoeba.rotate();
     }
 }
