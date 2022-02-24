@@ -8,7 +8,19 @@ public class SanPham {
     double giamGia;
 
     //method
-    public double getThueNhapKhau(){
+    SanPham(){}
+
+    public SanPham(String tenSp, double donGia, double giamGia){
+        this.tenSp = tenSp;
+        this.donGia = donGia;
+        this.giamGia = giamGia;
+    }
+
+    public SanPham(String tenSp, double donGia){
+        this(tenSp, donGia, 0);
+    }
+
+    private double getThueNhapKhau(){
         return donGia*0.1;
     }
 
