@@ -28,11 +28,11 @@ public class GuessGame {
             p2.guess();
             p3.guess();
 
-            guessp1 = p1.number;//
+            guessp1 = p1.getNumber(); // Đã có encapsulation
             System.out.println("Player one guessed "+guessp1);
-            guessp2 = p2.number;
+            guessp2 = p2.getNumber(); // Đã có encapsulation
             System.out.println("Player two guessed "+guessp2);
-            guessp3 = p3.number;
+            guessp3 = p3.getNumber(); // Đã có encapsulation
             System.out.println("Player three guessed "+guessp3);
 
             if(guessp1 == targetNumber){
