@@ -1,7 +1,5 @@
 package com.hungnt2004110032.tuan3.buoi6;
 
-import java.util.Scanner;
-
 public class SinhVienTestDrive {
     
     public static void main(String[] args) {
