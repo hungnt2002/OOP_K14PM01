@@ -1,6 +1,6 @@
 package com.hungnt2004110032.tuan3.buoi6;
 
-public class Cat extends Feline {
+public class Cat extends Feline implements Pet {
     // state
 
 
@@ -14,4 +14,17 @@ public class Cat extends Feline {
     protected void eat() {
         System.out.println("Cat eating meat ...");
     }
+
+    @Override
+    public void beFriendly() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void play() {
+        // TODO Auto-generated method stub
+        
+    }
+    
 }
