@@ -1,6 +1,5 @@
 package com.hungnt2004110032.tuan4.buoi7;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ChuyenXeNgoaiThanh extends ChuyenXe {
